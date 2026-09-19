@@ -3,64 +3,112 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hospital Mannagement System</title>
-    <link rel="stylesheet"href="style.css">
+    <title>Hospital Management System</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Welcome to Hospital Management System</h1>
+    <h1>Hospital Management System</h1>
     <nav>
-    <a href="#">Home</a>
-    <a href="#">Patient</a>
-    <a href="#">Doctor</a>
-    <a href="#">Appointment</a>
-    <a href="#">Record</a>
-    <a href="#">Billing</a>
-    <a href="#">Contact</a>
-    <a href="#">About Us</a>
+        <a href="#">Home</a>
+        <a href="#">Services</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+        <a href="#">Doctor List</a>
     </nav>
-    <section>
-        <div>
-    <h2>Welcome to Hospital Management system</h2>
-    <p>Providing quality healthcare for Everyone</p>
-    <button>Register patient</button> 
-    <button>Book Appointment</button>
-    </div>
-    <section class="hero">
-<div class="hero-left">
-    Welcome
-    Description
-    Register Button
-    Book Appointment button
-</div>
-<div class="hero-right">
-        <h2>Hospital Image</h2>
-    </div>
-    </section>
-    <section>
-    <div class="card">
-        <h3>Doctor</h3>
-        <p>25</p>
-        </div>
-        <div class="card">
-        <h3>Patients</h3>
-        <p>150</p>
-        </div>
-        <div class="card">
-            <h3>Appointment</h3>
-            <p>40</p>
-        </div>
+    <main>
+        <section>
+            <h2>Welcome to Our Hospital</h2>
+            <p>We provide quality healthcare services with experienced doctors
+                and modern facilities.
+            </p>
+            <button>Book Appointment</button>
         </section>
-        <h2> Our Services</h2>
-        <ul>
-            <li>General Checkup</li>
-            <li>Emergency care</li>
-            <li>Laboratory</li>
-            <li>Pharmacy</li>
-            <li>Surgery</li>
-        </ul>
-        <footer>
-            <p>&copy;2026 Hospital Management System</p>
-
-            </footer>
+        <section class="services">
+            <h2>Our Services</h2>
+            <div clss="service-container">
+                <article class="service-card">
+                    <div class="service-icon">
+                    </div>
+                <h3>General Checkup</h3>  
+                <p>Regular health checkups for all age groups.</p>
+                <button>learn More</button>
+            </article>
+            <article class="service-card">
+                <div class="service-icon"></div>
+                <h3>Emergency</h3>
+                <p>24/7 emergency medical support.</p>
+                <button>Learn More</button>
+            </article>
+            <article class="service-card">
+                <div class="service-icon">
+                </div>
+                <h3>Laboratory</h3>
+                <p>Accurate diagnostic and laboratory test.</p>
+                <button>Learn More</button>
+            </article>
+            </div>
+        </section>
+        <section clss="about">
+            <div class="about-content">
+            <h2>About Us</h2>
+            <p>
+                Our hospital is dedicated to providing excellent
+                 healthcare with modern technology and experienced
+                 e professionals.
+                </p>
+                <p>
+                    We focus on patient care,safety and quality
+                    healthcare services for everyone.
+                </p>
+                <button>learn More</button>
+                </div>
+        </section>
+        <section>
+            <h2>Contact Us</h2>
+            <p>Email:
+                info@hospital.com
+            </p>
+            <p>Phone:9834672347</p>
+            <p>Address:Hyderabad,India</p>
+        </section>
+        <Section>
+            <h2>Doctor List</h2>
+            <input text="text" placeholder="Enter Doctor Name">
+            <button>Search</button>
+            <table border="1">
+                <tr>
+                    <th>Doctor ID</th>
+                    <th>Name</th>
+                    <th>Specialization</th>
+                    <th>Experience</th>
+                    <th>Phone</th>
+                </tr>
+                <tr>
+                    <td>D101</td>
+                    <td>Dr. Ali</td>
+                    <td>Cardiologist</td>
+                    <td>10 years</td>
+                    <td>8965432876</td>
+                </tr>
+                <tr>
+                    <td>D102</td>
+                    <td>Dr.Khan</td>
+                    <td>Neurologist</td>
+                    <td>8 years</td>
+                    <td>934556726</td>
+                </tr>
+                <tr>
+                    <td>D103</td>
+                    <td>Dr.Ahmed</td>
+                    <td>Pediatrician</td>
+                    <td>12 years</td>
+                    <td>9865432167</td>
+                </tr>
+            </table>
+        </Section>
+    </main>
+    <footer>
+        <p>&copy;2026 Hospital Management System.All Rights reserved.</p>
+    </footer>
 </body>
 </html>
